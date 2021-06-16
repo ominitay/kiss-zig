@@ -6,4 +6,4 @@ Add this repo to the start of `KISS_PATH`. This is so that the included `LLVM` p
 
 ### Note
 
-This repo builds LLVM with all default targets to allow Zig to cross-compile. This is the officially supported configuration by Zig. If you don't mind giving up the official support and cross-compiling, you may use the Zig packages in the community repo instead.
+This repo builds `LLVM` with all default targets to allow `Zig` to cross-compile. This is the officially supported configuration by `Zig`. The community repo package is out-of-date and possibly broken, thanks to changes introduced in `Zig` meaning that the `LLVM` package must be built with all default targets. The only way this may be fixed is by the official `LLVM` package being changed to include all targets. If this doesn't happen, the community package will be dropped.
